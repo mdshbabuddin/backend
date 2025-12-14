@@ -12,3 +12,7 @@ const connectDB = async () => {
 }
 
 export default connectDB
+
+
+
+//isme humlog actual code likhte hai database se connect krne ka 

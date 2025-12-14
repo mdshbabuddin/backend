@@ -27,7 +27,7 @@ connectDB()
 
 
 
-
+//ye hamesha aesa hi hoga ye database se connect karne me madad krta hai🤔🤔🤔🤔🤔🤔🤔🤔🤔 isme index.js bhi kehte h aur main.js bhi.
 
 
 

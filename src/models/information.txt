@@ -1,0 +1,2 @@
+A schema is the logical design or blueprint of a database that defines the structure of data and constraints.
+ye structure btata hai kaise kya krna hai kya kya lena hai database me example name address and pipiline etc.

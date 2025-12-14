@@ -16,7 +16,15 @@ const userSchema = new Schema({
         required: true,
         unique: true,
         lowercase: true,
-        trim: true
+        trim: true,
+        // match: [
+        // /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/,
+        // "Please provide a valid email address"
+        // ]
+        match: [
+        /^[a-zA-Z0-9._%+-]+@gmail\.com$/,
+        "Only Gmail addresses are allowed (example: name@gmail.com)"
+    ]
     },
     fullName: {
         type: String,

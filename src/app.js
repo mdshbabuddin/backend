@@ -23,3 +23,7 @@ import userRouter from './routes/user.routes.js'
 app.use("/api/v1/users", userRouter)
 
 export { app }
+
+
+
+//isme configuration / cookie isko main.js aur app.js bhi kehte h.

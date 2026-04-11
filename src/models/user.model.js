@@ -22,7 +22,7 @@ const userSchema = new Schema({
         // "Please provide a valid email address"
         // ]
         match: [
-        /^[a-zA-Z0-9._%+-]+@gmail\.com$/,
+        /^[a-zA-Z0-9._%+-]{4,}@gmail\.com$/,
         "Only Gmail addresses are allowed (example: name@gmail.com)"
     ]
     },
